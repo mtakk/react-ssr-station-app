@@ -6,10 +6,10 @@ const server = {
   //nodeで起動するのでtergetはnodeに
   target: ["node"],
   mode: "development",
-  entry: "./server/server.js",
+  entry: "./server/serverGh.js",
   output: {
-    path: path.resolve(__dirname, "dist"),
-    filename: "server.js",
+    path: path.resolve(__dirname, "build"),
+    filename: "serverGh.js",
   },
   module: {
     rules: [
@@ -47,7 +47,7 @@ const client = {
   mode: "development",
   entry: "./src/index.tsx",
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "build"),
     filename: "client.js",
   },
   module: {

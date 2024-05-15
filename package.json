@@ -1,4 +1,5 @@
 {
+  "homepage": "https://mtakk.github.io/react-ssr-station-app/",
   "name": "react-ssr-station-app",
   "version": "0.1.0",
   "private": true,
@@ -34,9 +35,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "dev:api": "nodemon server/index.js",
+    "hello": "nodemon server/index.js",
     "webpack": "webpack --config webpack.config.js",
-    "start:dist": "node dist/server.js"
+    "webpack:gh": "webpack --config webpack.config.gh.js",
+    "start:dist": "node dist/server.js",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -55,5 +58,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
