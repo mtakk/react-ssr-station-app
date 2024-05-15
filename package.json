@@ -35,11 +35,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build",
     "hello": "nodemon server/index.js",
     "webpack": "webpack --config webpack.config.js",
-    "webpack:gh": "webpack --config webpack.config.gh.js",
-    "start:dist": "node dist/server.js",
-    "deploy": "gh-pages -d build"
+    "ssr": "node dist/server.js"
   },
   "eslintConfig": {
     "extends": [
