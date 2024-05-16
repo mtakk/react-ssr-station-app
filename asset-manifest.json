@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-ssr-station-app/static/css/main.0c2d1e7b.css",
-    "main.js": "/react-ssr-station-app/static/js/main.2b8dba4e.js",
+    "main.css": "/react-ssr-station-app/static/css/main.56c241f6.css",
+    "main.js": "/react-ssr-station-app/static/js/main.0e32ab74.js",
     "static/js/845.1e66a286.chunk.js": "/react-ssr-station-app/static/js/845.1e66a286.chunk.js",
     "index.html": "/react-ssr-station-app/index.html",
-    "main.0c2d1e7b.css.map": "/react-ssr-station-app/static/css/main.0c2d1e7b.css.map",
-    "main.2b8dba4e.js.map": "/react-ssr-station-app/static/js/main.2b8dba4e.js.map",
+    "main.56c241f6.css.map": "/react-ssr-station-app/static/css/main.56c241f6.css.map",
+    "main.0e32ab74.js.map": "/react-ssr-station-app/static/js/main.0e32ab74.js.map",
     "845.1e66a286.chunk.js.map": "/react-ssr-station-app/static/js/845.1e66a286.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c2d1e7b.css",
-    "static/js/main.2b8dba4e.js"
+    "static/css/main.56c241f6.css",
+    "static/js/main.0e32ab74.js"
   ]
 }
