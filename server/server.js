@@ -14,6 +14,7 @@ const responseHtml = `
     <head>
       <title>Reactjs-4</title>
       <link rel="stylesheet" href="client.css" type="text/css"/>
+      <link rel="stylesheet" href="output.css" type="text/css"/>
     </head>
     <body>
       <div id="root">${html}</div>
