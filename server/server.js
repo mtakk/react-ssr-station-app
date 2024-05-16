@@ -10,7 +10,7 @@ app.use(express.static(path.resolve(__dirname, "../dist")));
 
 const html = ReactDOMServer.renderToString(<App />);
 const responseHtml = `
-  <html>
+  <html lang="ja">
     <head>
       <title>Reactjs-4</title>
       <link rel="stylesheet" href="client.css" type="text/css"/>
