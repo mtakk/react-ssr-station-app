@@ -13,11 +13,12 @@ const responseHtml = `
   <html>
     <head>
       <title>Reactjs-4</title>
-      <link rel="stylesheet" href="/styles.css" type="text/css"/>
+      <link rel="stylesheet" href="client.css" type="text/css"/>
     </head>
     <body>
       <div id="root">${html}</div>
-      <script src="/client.js"></script>
+      <script src="client.js"></script>
+      <script src="node_modules_web-vitals_dist_web-vitals_js.client.js"></script>
     </body>
   </html>
 `;
